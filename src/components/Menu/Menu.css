@@ -1,0 +1,31 @@
+.Nav {
+  padding: 20px 20px;
+
+  background-color: #263238;
+
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.Nav button {
+  background: none;
+  border: 2px solid rgba(241, 240, 237, 0.678);
+  transition: all 0.25s ease;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Nav button:hover {
+  border: 2px solid white;
+}
